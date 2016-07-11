@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate the allowed states depending on the current state</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>(JDS) State validation</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var ga = new GlideAjax('JDS_StateValidationAJAX');
+	ga.addParam('sysparm_name', 'getValidStates');
+	ga.addParam('sysparm_state', g_form.getValue('state'));
+	ga.getXML(ajaxResponse);   
+}
+
+function ajaxResponse(serverResponse) {
+
+	// Check if we have a response from the AJAX call
+	if (serverResponse.responseXML.getElementsByTagName('response').length == 0)
+		return;
+	
+	// We have an expected response so parse the result
+	var result = serverResponse.responseXML.getElementsByTagName('response')[0].attributes[0].value;
+
+	// Establish an array of valid states and all available states
+	var validStates = result.toString().split(',');
+	var currentState = g_form.getValue('state');
+	var optionArray = [];
+	
+	var el = g_form.getElement('state');
+	for (i = 0; i < el.options.length; i++)
+		optionArray[i] = el.options[i].value;
+	
+	//Remove options which don't match the current state or one of the valid states
+	for (i = 0; i < optionArray.length; i++) {
+		if (optionArray[i] != currentState && validStates.indexOf(optionArray[i]) == -1)
+			g_form.removeOption('state',  optionArray[i]);			
+	}
+		
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-03 06:53:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1dd902dd0f3f5600d1694e9ce1050e35</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>(JDS) State validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+        <sys_update_name>sys_script_client_1dd902dd0f3f5600d1694e9ce1050e35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-06 05:20:17</sys_updated_on>
+        <table>x_38002_complaints_and_feedback_table</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

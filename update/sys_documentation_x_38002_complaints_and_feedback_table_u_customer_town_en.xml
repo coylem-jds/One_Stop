@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_customer_town" label="Town, city or suburb" language="en" table="x_38002_complaints_and_feedback_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_customer_town</element>
+            <help/>
+            <hint/>
+            <label>Town, city or suburb</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <plural>Town, city or suburbs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 05:58:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8ecd63720fb7d600d1694e9ce1050e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Town, city or suburb</sys_name>
+            <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+            <sys_update_name>sys_documentation_x_38002_complaints_and_feedback_table_u_customer_town_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 05:58:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

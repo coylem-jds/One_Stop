@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service CX Interaction" max_length="40" name="x_38002_complaints_service_cx_interaction" type="collection">
+        <element label="CX interaction" max_length="100" name="cx_interaction" type="string"/>
+        <element display="true" label="Service" max_length="250" name="service" type="string"/>
+        <element label="Service ID" max_length="40" name="service_id" type="string"/>
+    </element>
+</database>

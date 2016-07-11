@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_38002_complaints.JDS_StateValidation</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>JDS_StateValidation</name>
+        <script><![CDATA[var JDS_StateValidation = Class.create();
+JDS_StateValidation.prototype = {
+	
+	/*
+    * START: static properties and default values
+    */
+	initialize: function() {
+
+		this.EMPTY_STATE = '';
+		this.ALLOC_TO_QG_STATE = -22;
+		this.ASSIGNED_STATE = -25;
+		this.CLOSED_STATE = 3;
+		this.CLOSED_BY_QG_STATE = 11;
+		this.CLOSED_UNRES_STATE = 9;
+		this.CLOSED_NOT_ACC_STATE = 8;
+		this.CLOSED_1ST_CONT_STATE = 10;
+		this.CREATION_STATE = 1;
+		this.IN_PROG_STATE = 2;
+		this.PENDING_STATE = -26;
+		this.RECEIVED_BY_QG_STATE = -27;
+		this.REJECTED_BY_QG_STATE = -28;
+		this.SENT_STATE = -20;
+
+		this.STATE_ARRAY =
+			[{
+				START_STATE: this.EMPTY_STATE,
+				VALID_STATES: [this.SENT_STATE, this.CLOSED_UNRES_STATE, this.CLOSED_1ST_CONT_STATE],
+			},
+			{
+				START_STATE: this.ALLOC_TO_QG_STATE,
+				VALID_STATES: [this.REJECTED_BY_QG_STATE],
+			},
+			{
+				START_STATE: this.ASSIGNED_STATE,
+				VALID_STATES: [this.IN_PROG_STATE],
+			},
+			{
+				START_STATE: this.CLOSED_BY_QG_STATE,
+				VALID_STATES: [this.CLOSED_STATE],
+			},
+			{
+				START_STATE: this.CLOSED_UNRES_STATE,
+				VALID_STATES: [this.CLOSED_STATE],
+			},
+			{
+				START_STATE: this.CLOSED_NOT_ACC_STATE,
+				VALID_STATES: [this.CLOSED_STATE],
+			},
+			{
+				START_STATE: this.CLOSED_1ST_CONT_STATE,
+				VALID_STATES: [this.CLOSED_STATE],
+			},
+			{
+				START_STATE: this.CREATION_STATE,
+				VALID_STATES: [this.SENT_STATE, this.CLOSED_NOT_ACC_STATE, this.ALLOC_TO_QG_STATE],
+			},
+			{
+				START_STATE: this.IN_PROG_STATE,
+				VALID_STATES: [this.CLOSED_BY_QG_STATE],
+			},
+			{
+				START_STATE: this.PENDING_STATE,
+				VALID_STATES: [this.CLOSED_1ST_CONT_STATE, this.ALLOC_TO_QG_STATE],
+			},
+			{
+				START_STATE: this.RECEIVED_BY_QG_STATE,
+				VALID_STATES: [this.ASSIGNED_STATE, this.CLOSED_1ST_CONT_STATE],
+			},
+			{
+				START_STATE: this.REJECTED_BY_QG_STATE,
+				VALID_STATES: [this.ALLOC_TO_QG_STATE],
+			},
+			{
+				START_STATE: this.SENT_STATE,
+				VALID_STATES: [this.CLOSED_UNRES_STATE, this.PENDING_STATE, this.ALLOC_TO_QG_STATE],
+			}			 
+			];
+	},
+		
+	/*
+    * END: static properties and default values
+    */
+		
+	/*
+    * Get valid states
+    * @param current state value 
+    * @return comma-separated string of valid states
+    */
+	getValidStates: function(state) {
+		state = state + "";
+		
+		for (i = 0; i < this.STATE_ARRAY.length; i++) {
+			if (this.STATE_ARRAY[i].START_STATE == state)
+				validStates = this.STATE_ARRAY[i].VALID_STATES;
+		}
+		
+		return validStates;
+	},
+    type: 'JDS_StateValidation'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-03 07:21:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d7ca4a9d0f3f5600d1694e9ce1050eba</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>JDS_StateValidation</sys_name>
+        <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+        <sys_update_name>sys_script_include_d7ca4a9d0f3f5600d1694e9ce1050eba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-06 05:12:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

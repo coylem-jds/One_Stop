@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cf_agency" table="x_38002_complaints_and_feedback_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aboriginal and Torres Strait Islander Partnerships</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-02 05:27:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae4d28050ff75600d1694e9ce1050ea8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:34:02</sys_updated_on>
+            <value>DATSIP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agriculture and Fisheries</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1b5b3f20fb7d600d1694e9ce1050e50</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:34:18</sys_updated_on>
+            <value>DAF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Communities, Child Safety and Disability Services</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:34:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a09c6ab0f331a00d1694e9ce1050eec</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:34:57</sys_updated_on>
+            <value>DCCSDS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education and Training</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:35:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd59c6ab0f331a00d1694e9ce1050e23</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:35:12</sys_updated_on>
+            <value>DET</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Energy and Water Supply</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:35:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c7982230f331a00d1694e9ce1050eea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:35:27</sys_updated_on>
+            <value>DEWS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environment and Heritage Protection</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:35:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf790eab0f331a00d1694e9ce1050e56</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:35:43</sys_updated_on>
+            <value>EHP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Health</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4499caab0f331a00d1694e9ce1050e04</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-13 05:22:35</sys_updated_on>
+            <value>QH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Housing and Public Works</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b9906ab0f331a00d1694e9ce1050e22</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:36:11</sys_updated_on>
+            <value>HPW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infrastructure, Local Government and Planning</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:36:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfa90eab0f331a00d1694e9ce1050ea0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:36:24</sys_updated_on>
+            <value>DILGP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Justice and Attorney-General</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ab906ab0f331a00d1694e9ce1050ee2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:36:46</sys_updated_on>
+            <value>DJAG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>National Parks, Sport and Racing</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43c9c2e70f331a00d1694e9ce1050e2f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:37:01</sys_updated_on>
+            <value>NPSR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural Resources and Mines</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:37:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93d9c6ab0f331a00d1694e9ce1050ef4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:37:13</sys_updated_on>
+            <value>DNRM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Premier and Cabinet</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ee98eab0f331a00d1694e9ce1050eb7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:37:27</sys_updated_on>
+            <value>DPC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Safety Business Agency</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:37:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3df94eab0f331a00d1694e9ce1050ef3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:37:42</sys_updated_on>
+            <value>PSBA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Science, Information Technology and Innovation</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:38:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>510a02ab0f331a00d1694e9ce1050edb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:38:13</sys_updated_on>
+            <value>DSITI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State Development</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc2a8eab0f331a00d1694e9ce1050e59</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:38:36</sys_updated_on>
+            <value>DSD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tourism, Major Events, Small Business and the Commonwealth Games</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:38:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f03a4eab0f331a00d1694e9ce1050e2c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:39:12</sys_updated_on>
+            <value>DTESB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transport and Main Roads</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f74a8eab0f331a00d1694e9ce1050e19</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:39:34</sys_updated_on>
+            <value>TMR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cf_agency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Treasury</label>
+            <language>en</language>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 06:39:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd6a4eab0f331a00d1694e9ce1050ef9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 06:39:50</sys_updated_on>
+            <value>QT</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cf_agency</element>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-02 05:27:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2a4d28050ff75600d1694e9ce1050ea9</sys_id>
+            <sys_mod_count>62</sys_mod_count>
+            <sys_name>u_cf_agency</sys_name>
+            <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+            <sys_update_name>sys_choice_x_38002_complaints_and_feedback_table_u_cf_agency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-14 04:02:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

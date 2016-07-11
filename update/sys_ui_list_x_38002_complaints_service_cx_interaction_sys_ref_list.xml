@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_38002_complaints_service_cx_interaction" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>service</element>
+            <list_id display_value="x_38002_complaints_service_cx_interaction" element="NULL" name="x_38002_complaints_service_cx_interaction" parent="NULL" relationship="NULL" sys_domain="global" view="9ba434000f221200d1694e9ce1050e5d">7237d5eb0fffd600d1694e9ce1050eeb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 02:55:42</sys_created_on>
+            <sys_id>b637d5eb0fffd600d1694e9ce1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 02:55:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_38002_complaints_service_cx_interaction</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-10 02:55:42</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7237d5eb0fffd600d1694e9ce1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_38002_complaints_service_cx_interaction</sys_name>
+            <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+            <sys_update_name>sys_ui_list_x_38002_complaints_service_cx_interaction_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-10 02:55:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">9ba434000f221200d1694e9ce1050e5d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

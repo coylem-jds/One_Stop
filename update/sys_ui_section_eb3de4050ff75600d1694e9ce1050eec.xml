@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Customer details" section_id="eb3de4050ff75600d1694e9ce1050eec" sys_domain="global" table="x_38002_complaints_and_feedback_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_first_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>9feea7720fb7d600d1694e9ce1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_middle_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>13eea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_last_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>93eea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name_usage_type</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>17eea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_dob</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>97eea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_qgcidm_id</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>1beea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>9beea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_preferred_contact</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>1feea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_email</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>9feea7720fb7d600d1694e9ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_phone</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>13eea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_address_1</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>93eea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_address_2</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>17eea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_address_3</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>97eea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_town</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>1beea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_state</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>9beea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_postcode</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>1feea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_country</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>9feea7720fb7d600d1694e9ce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer_address</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>13eea7720fb7d600d1694e9ce1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_telephone_service_line_code</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-08 06:03:01</sys_created_on>
+            <sys_id>93eea7720fb7d600d1694e9ce1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer details" display_value="Customer details" name="x_38002_complaints_and_feedback_table" sys_domain="global" view="Default view">eb3de4050ff75600d1694e9ce1050eec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-08 06:03:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Customer details</caption>
+            <header>false</header>
+            <name>x_38002_complaints_and_feedback_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-06-02 05:27:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb3de4050ff75600d1694e9ce1050eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+            <sys_update_name>sys_ui_section_eb3de4050ff75600d1694e9ce1050eec</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-06-02 05:27:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

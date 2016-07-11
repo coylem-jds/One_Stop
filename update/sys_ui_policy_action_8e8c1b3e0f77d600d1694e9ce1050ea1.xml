@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_event_occurred_time</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-08 04:42:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8e8c1b3e0f77d600d1694e9ce1050ea1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_event_occurred_time</sys_name>
+        <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8e8c1b3e0f77d600d1694e9ce1050ea1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-08 04:42:49</sys_updated_on>
+        <table>x_38002_complaints_and_feedback_table</table>
+        <ui_policy display_value="(JDS) Show/hide all but categorisation fields">a0a32dd10f3f5600d1694e9ce1050eef</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

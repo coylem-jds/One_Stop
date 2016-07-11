@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>insert</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var requestBody = request.body;
+	var requestData = requestBody.data;
+	
+	try {
+		
+		var cf = new GlideRecord('x_38002_complaints_and_feedback_table');
+
+		cf.initialize();
+
+		if (requestData['are-you-contacting-us-about'] == 'a complaint') {
+			cf.u_feedback_type = 'complaint';
+			cf.u_feedback_type = requestData['are-you-contacting-us-about'];
+			cf.u_complaint_detail = requestData['what-happened'];
+		}
+		else {
+			cf.u_feedback_type = 'compliment';
+			cf.u_feedback_type = requestData['are-you-contacting-us-about'];
+			cf.u_compliment_detail = requestData['compliment'];
+		}
+
+		cf.u_received_by_staff = false;
+		cf.u_event_occurred_date = requestData['when'];
+		cf.u_event_occurred_time = requestData['approximately-what-time-did-it-happen'];	
+		cf.u_event_channel = requestData['where-did-it-happen'];
+		cf.u_event_phone = requestData['phone'];
+		cf.u_event_location = requestData['counter'];
+		cf.u_event_other_channel = requestData['if-other-please-specify'];
+		cf.u_cf_service.setDisplayValue(requestData['service-type']);
+		cf.u_event_desired_outcome = requestData['outcome'];
+		cf.u_event_notify = requestData['your-feedback-notified'];
+		cf.u_customer_first_name = requestData['first-name1'];
+		cf.u_customer_middle_name = requestData['middle-name1'];
+		cf.u_customer_last_name = requestData['last-name1'];
+		cf.u_customer_email = requestData['cidm-email'];
+		cf.u_customer_phone = requestData['contact-number-1'];
+		cf.u_qgcidm_id = requestData['cidm-qid'];
+
+		var cfSysID = cf.insert();
+
+		var caseNumber, message, statusCode;
+
+		if (cfSysID == null) {
+			caseNumber = '';
+			message = cf.getLastErrorMessage();
+			statusCode = 520;
+		}
+		else {
+			caseNumber = cf.getDisplayValue();
+			message = 'insert ok';
+			statusCode = 201;
+		}
+
+		response.setContentType('application/json');
+		response.setBody({
+			number: caseNumber,
+			message: message,
+		});
+		response.setStatus(statusCode);
+		
+	}
+	catch (ex) {
+		var message = ex.message;
+		
+		response.setContentType('application/json');
+		response.setBody({
+			number: '',
+			message: message,
+		});
+		response.setStatus(520);
+	}
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_38002_complaints/cf</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-09 04:43:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5bb5501b0fbbd600d1694e9ce1050e43</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>insert</sys_name>
+        <sys_package display_value="Complaints and Feedback" source="x_38002_complaints">de24e8410ff75600d1694e9ce1050eeb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Complaints and Feedback">de24e8410ff75600d1694e9ce1050eeb</sys_scope>
+        <sys_update_name>sys_ws_operation_5bb5501b0fbbd600d1694e9ce1050e43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-13 02:36:13</sys_updated_on>
+        <web_service_definition display_value="CF">dc4204970fbbd600d1694e9ce1050efa</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

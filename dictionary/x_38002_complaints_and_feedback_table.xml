@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Complaints And Feedback" max_length="40" name="x_38002_complaints_and_feedback_table" sizeclass="52" type="collection">
+        <element label="Possible to transfer call to the agency?" max_length="40" name="u_can_transfer_call_to_agency" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="CF agency" max_length="40" name="u_cf_agency" type="string">
+            <choice>
+                <element label="Aboriginal and Torres Strait Islander Partnerships" sequence="0" value="DATSIP"/>
+                <element label="Agriculture and Fisheries" sequence="1" value="DAF"/>
+                <element label="Communities, Child Safety and Disability Services" sequence="2" value="DCCSDS"/>
+                <element label="Education and Training" sequence="3" value="DET"/>
+                <element label="Energy and Water Supply" sequence="4" value="DEWS"/>
+                <element label="Environment and Heritage Protection" sequence="5" value="EHP"/>
+                <element label="Health" sequence="6" value="QH"/>
+                <element label="Housing and Public Works" sequence="7" value="HPW"/>
+                <element label="Infrastructure, Local Government and Planning" sequence="8" value="DILGP"/>
+                <element label="Justice and Attorney-General" sequence="9" value="DJAG"/>
+                <element label="National Parks, Sport and Racing" sequence="10" value="NPSR"/>
+                <element label="Natural Resources and Mines" sequence="11" value="DNRM"/>
+                <element label="Premier and Cabinet" sequence="12" value="DPC"/>
+                <element label="Public Safety Business Agency" sequence="13" value="PSBA"/>
+                <element label="Science, Information Technology and Innovation" sequence="14" value="DSITI"/>
+                <element label="State Development" sequence="15" value="DSD"/>
+                <element label="Tourism, Major Events, Small Business and the Commonwealth Games" sequence="16" value="DTESB"/>
+                <element label="Transport and Main Roads" sequence="17" value="TMR"/>
+                <element label="Treasury" sequence="18" value="QT"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="phone" label="CF channel" max_length="40" name="u_cf_channel" type="string">
+            <choice>
+                <element label="Over the phone" sequence="0" value="phone"/>
+                <element label="Online" sequence="1" value="online"/>
+                <element label="Counter" sequence="2" value="counter"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="CF person" max_length="40" name="u_cf_person" type="string"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter" label="CF service" max_length="32" name="u_cf_service" reference="x_38002_complaints_service_cx_interaction" type="reference"/>
+        <element label="CF SSQ Comments" max_length="4000" name="u_cf_ssq_comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Dept General" label="CF type" max_length="40" name="u_cf_type" type="string">
+            <choice>
+                <element label="Dept General" sequence="0" value="Dept General"/>
+                <element label="Staff Conduct" sequence="1" value="Staff Conduct"/>
+                <element label="Staff Other" sequence="2" value="Staff Other"/>
+                <element label="Staff Skill/Knowledge" sequence="3" value="Staff Skill/Knowledge"/>
+                <element label="Serv/Prod Cost" sequence="4" value="Serv/Prod Cost"/>
+                <element label="Serv/Prod Quality" sequence="5" value="Serv/Prod Quality"/>
+                <element label="Serv/Prod Time" sequence="6" value="Serv/Prod Time"/>
+                <element label="Serv/Prod Other" sequence="7" value="Serv/Prod Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" hint="Please provide as much details of your compliment as you can (who, what, where, when, why), so that it can be accurately allocated." label="Complaint details" max_length="4000" name="u_complaint_detail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Please provide details about what happened." label="Compliment details" max_length="4000" name="u_compliment_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address line 1" max_length="100" name="u_customer_address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address line 2" max_length="100" name="u_customer_address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address line 3" max_length="100" name="u_customer_address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Australia" label="Country" max_length="40" name="u_customer_country" type="string"/>
+        <element label="Date of birth" max_length="40" name="u_customer_dob" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="200" name="u_customer_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Given name" max_length="40" name="u_customer_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Family name" max_length="40" name="u_customer_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Middle name" max_length="40" name="u_customer_middle_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact number" max_length="40" name="u_customer_phone" type="string"/>
+        <element label="Postcode" max_length="40" name="u_customer_postcode" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How would you like us to contact you?" max_length="40" name="u_customer_preferred_contact" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="email"/>
+                <element label="Phone" sequence="1" value="phone"/>
+                <element label="Post" sequence="2" value="post"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="QLD" label="State" max_length="40" name="u_customer_state" type="string"/>
+        <element choice="1" label="Customer-facing status" max_length="40" name="u_customer_status" type="integer">
+            <choice>
+                <element label="Sent" sequence="0" value="-20"/>
+                <element label="Accepted" sequence="1" value="-27"/>
+                <element label="Assigned" sequence="2" value="-25"/>
+                <element label="In progress" sequence="3" value="2"/>
+                <element label="Complete" sequence="4" value="-6"/>
+                <element label="Closed" sequence="5" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Town, city or suburb" max_length="40" name="u_customer_town" type="string"/>
+        <element label="Do what you say" max_length="40" name="u_cx_principle_action" type="boolean"/>
+        <element label="Be clear" max_length="40" name="u_cx_principle_clear" type="boolean"/>
+        <element label="Make it easier" max_length="40" name="u_cx_principle_easy" type="boolean"/>
+        <element label="Be helpful" max_length="40" name="u_cx_principle_helpful" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Where did it happen?" max_length="40" name="u_event_channel" type="string">
+            <choice>
+                <element label="Over the phone" sequence="0" value="phone"/>
+                <element label="At a counter" sequence="1" value="counter"/>
+                <element label="Online" sequence="2" value="online"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="What would you like to happen to resolve your complaint?" max_length="1000" name="u_event_desired_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please provide information about the address/location of the counter" max_length="200" name="u_event_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you want to be notified about the result or contacted if we need to?" max_length="40" name="u_event_notify" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When did it happen?" max_length="100" name="u_event_occurred_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What time did it happen?" max_length="40" name="u_event_occurred_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="If other, please specify" max_length="100" name="u_event_other_channel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What phone number were you calling from when the issue happened?" max_length="40" name="u_event_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are you contacting us about:" max_length="40" name="u_feedback_type" type="string">
+            <choice>
+                <element label="A complaint" sequence="0" value="A complaint"/>
+                <element label="A compliment" sequence="1" value="A compliment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Further notes" max_length="4000" name="u_further_notes" read_only="true" type="string"/>
+        <element label="Customer accepts transfer to agency?" max_length="40" name="u_lodge_via_phone" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Name usage type" max_length="40" name="u_name_usage_type" type="string">
+            <choice>
+                <element label="LGL" sequence="0" value="LGL"/>
+                <element label="PRF" sequence="1" value="PRF"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Public note" max_length="1000" name="u_public_note" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="QGCIDM ID" max_length="100" name="u_qgcidm_id" type="string"/>
+        <element default="true" label="Received by staff member?" max_length="40" name="u_received_by_staff" read_only="true" type="boolean"/>
+        <element dependent="u_cf_ssq_comments" dependent_on_field="u_cf_ssq_comments" label="SSQ Comments" max_length="4000" name="u_ssq_comments" type="journal_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName();" label="Staff Member Name" max_length="40" name="u_staff_member_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How was the feedback received?" max_length="40" name="u_staff_received_by" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="Email"/>
+                <element label="Phone" sequence="1" value="Phone"/>
+                <element label="Counter" sequence="2" value="Counter"/>
+            </choice>
+        </element>
+        <element label="Telephone service line code" max_length="40" name="u_telephone_service_line_code" type="integer"/>
+    </element>
+</database>
